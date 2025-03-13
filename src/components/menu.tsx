@@ -35,7 +35,7 @@ export default async function Menu() {
             // href={{
             //   pathname: "/category/[id]/[...slug]/",
             //   params: { id: 1, slug: ["slug", "slug2"] },
-            // }} <-- This does not work! Params cannot be passed
+            // }} // <-- This does not work! Params cannot be passed
             href={getPathname({
               locale,
               href: {
