@@ -42,7 +42,7 @@ export default async function Menu() {
                 pathname: "/category/[id]/[...slug]/",
                 params: { id: 2, slug: ["slug", "slug3"] },
               },
-            })}
+            })} // <-- This works!
           >
             {t("Menu.category", { id: 2 })}
           </Link>
