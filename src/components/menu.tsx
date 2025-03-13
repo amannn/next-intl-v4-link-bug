@@ -17,14 +17,14 @@ export default async function Menu() {
             // href={{
             //   pathname: "/category/[id]/[...slug]/",
             //   params: { id: 1, slug: ["slug", "slug2"] },
-            // }} <-- This does not work! Params cannot be passed
+            // }} // <-- This does not work! Params cannot be passed
             href={getPathname({
               locale,
               href: {
                 pathname: "/category/[id]/[...slug]/",
                 params: { id: 1, slug: ["slug", "slug2"] },
               },
-            })}
+            })} // <-- This works!
           >
             {t("Menu.category", { id: 1 })}
           </Link>
@@ -34,7 +34,7 @@ export default async function Menu() {
             locale={locale}
             // href={{
             //   pathname: "/category/[id]/[...slug]/",
-            //   params: { id: 1, slug: ["slug", "slug2"] },
+            //   params: { id: 2, slug: ["slug", "slug3"] },
             // }} // <-- This does not work! Params cannot be passed
             href={getPathname({
               locale,
