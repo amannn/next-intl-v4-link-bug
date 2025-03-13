@@ -1,0 +1,9 @@
+{
+  "IndexPage": {
+    "title": "Dobrý deň!"
+  },
+  "Menu": {
+    "home": "Domov",
+    "category": "Kategória {id}"
+  }
+}

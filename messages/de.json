@@ -1,0 +1,9 @@
+{
+  "IndexPage": {
+    "title": "Hallo!"
+  },
+  "Menu": {
+    "home": "Zuhause",
+    "category": "Kategorie {id}"
+  }
+}
